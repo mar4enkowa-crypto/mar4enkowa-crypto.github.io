@@ -99,7 +99,6 @@ button {
 }
 
 .main-nav a,
-.header-download,
 .primary-action,
 .secondary-action {
   display: inline-flex;
@@ -122,15 +121,6 @@ button {
   background: var(--paper);
 }
 
-.header-download {
-  gap: 8px;
-  padding: 0 15px;
-  color: var(--white);
-  background: var(--ink);
-  font-size: 14px;
-}
-
-.header-download svg,
 .primary-action svg {
   width: 18px;
   height: 18px;
@@ -696,12 +686,6 @@ body.has-lightbox {
 
   .main-nav {
     display: none;
-  }
-
-  .header-download {
-    min-height: 38px;
-    padding: 0 12px;
-    font-size: 13px;
   }
 
   .hero {
